@@ -7,8 +7,6 @@
 
     <string name="iamutkarshtiwari_github_io_ananas_stickers">Stickers</string>
     <string name="iamutkarshtiwari_github_io_ananas_filter">Filters</string>
-    <string name="iamutkarshtiwari_github_io_ananas_crop">Crop</string>
-    <string name="iamutkarshtiwari_github_io_ananas_rotate">Rotate</string>
     <string name="iamutkarshtiwari_github_io_ananas_text">Text</string>
     <string name="iamutkarshtiwari_github_io_ananas_brush">Brush</string>
     <string name="iamutkarshtiwari_github_io_ananas_eraser">Eraser</string>
@@ -21,14 +19,11 @@
     <string name="materialcolorpicker__errHex">Hex Code Format incorrect</string>
     <string name="materialcolorpicker__btnSelectColor">Select</string>
     <string name="iamutkarshtiwari_github_io_ananas_saving_image">Saving…</string>
-    <string name="iamutkarshtiwari_github_io_ananas_input_hint">Input Text …</string>
 
     <string name="iamutkarshtiwari_github_io_ananas_not_selected">Please choose an image for edit</string>
-    <string name="iamutkarshtiwari_github_io_ananas_auto_newline">AutoNewline</string>
     <string name="iamutkarshtiwari_github_io_ananas_save_error">Save error!</string>
     <string name="iamutkarshtiwari_github_io_ananas_load_error">Failed to load the image!</string>
     <string name="iamutkarshtiwari_github_io_ananas_loading">Loading…</string>
-    <string name="iamutkarshtiwari_github_io_ananas_pick_a_color">Pick a color</string>
 
     <string name="iamutkarshtiwari_github_io_ananas_free_size">FREE</string>
     <string name="iamutkarshtiwari_github_io_ananas_fit_image">ORIGINAL</string>
@@ -95,7 +90,6 @@
         <item>5</item>
     </integer-array>
 
-    <string name="iamutkarshtiwari_github_io_ananas_more">More</string>
     <string name="iamutkarshtiwari_github_io_ananas_exit_without_save">The edited image is not saved. Do you want to exit? </string>
     <string name="iamutkarshtiwari_github_io_ananas_confirm">Confirm</string>
     <string name="iamutkarshtiwari_github_io_ananas_cancel">Cancel</string>

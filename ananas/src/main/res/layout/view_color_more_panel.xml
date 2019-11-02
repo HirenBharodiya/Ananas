@@ -1,7 +1,0 @@
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/color_panel_more"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_margin="6dp"
-    android:text="@string/iamutkarshtiwari_github_io_ananas_more"
-    android:textColor="@color/white" />

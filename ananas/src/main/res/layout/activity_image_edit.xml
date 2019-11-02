@@ -71,7 +71,6 @@
         android:overScrollMode="never" />
 
     <FrameLayout
-        android:id="@+id/work_space"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_above="@id/bottom_gallery"

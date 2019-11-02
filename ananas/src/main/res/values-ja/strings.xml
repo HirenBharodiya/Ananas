@@ -7,8 +7,6 @@
 
     <string name="iamutkarshtiwari_github_io_ananas_stickers">ステッカー</string>
     <string name="iamutkarshtiwari_github_io_ananas_filter">フィルタ</string>
-    <string name="iamutkarshtiwari_github_io_ananas_crop">トリム</string>
-    <string name="iamutkarshtiwari_github_io_ananas_rotate">回る</string>
     <string name="iamutkarshtiwari_github_io_ananas_text">本文</string>
     <string name="iamutkarshtiwari_github_io_ananas_edit">編集</string>
     <string name="iamutkarshtiwari_github_io_ananas_brightness">輝度</string>
@@ -19,14 +17,11 @@
     <string name="materialcolorpicker__errHex">16進コード形式が正しくない</string>
     <string name="materialcolorpicker__btnSelectColor">選び出す</string>
     <string name="iamutkarshtiwari_github_io_ananas_saving_image">保存中…</string>
-    <string name="iamutkarshtiwari_github_io_ananas_input_hint">入力テキスト…</string>
 
     <string name="iamutkarshtiwari_github_io_ananas_not_selected">編集する画像を選択してください</string>
-    <string name="iamutkarshtiwari_github_io_ananas_auto_newline">自動改行</string>
     <string name="iamutkarshtiwari_github_io_ananas_save_error">エラーを保存する!</string>
     <string name="iamutkarshtiwari_github_io_ananas_load_error">画像を読み込めませんでした。</string>
     <string name="iamutkarshtiwari_github_io_ananas_loading">充填…</string>
-    <string name="iamutkarshtiwari_github_io_ananas_pick_a_color">色を選ぶ</string>
 
     <string name="iamutkarshtiwari_github_io_ananas_free_size">自由にする</string>
     <string name="iamutkarshtiwari_github_io_ananas_fit_image">元の</string>
@@ -93,7 +88,6 @@
         <item>5</item>
     </integer-array>
 
-    <string name="iamutkarshtiwari_github_io_ananas_more">もっと</string>
     <string name="iamutkarshtiwari_github_io_ananas_exit_without_save">編集した画像は保存されません。退室しますか？</string>
     <string name="iamutkarshtiwari_github_io_ananas_confirm">確認</string>
     <string name="iamutkarshtiwari_github_io_ananas_cancel">取り消し</string>

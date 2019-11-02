@@ -12,7 +12,6 @@
         android:src="@drawable/image_edit_back" />
 
     <LinearLayout
-        android:id="@+id/rotate_buttons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
