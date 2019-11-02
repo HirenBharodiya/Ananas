@@ -66,8 +66,6 @@ public class EditImageActivity extends BaseActivity implements OnLoadingDialogLi
     public static final int MODE_NONE = 0;
     public static final int MODE_STICKERS = 1;
     public static final int MODE_FILTER = 2;
-    public static final int MODE_CROP = 3;
-    public static final int MODE_ROTATE = 4;
     public static final int MODE_TEXT = 5;
     public static final int MODE_PAINT = 6;
     public static final int MODE_BEAUTY = 7;
@@ -265,12 +263,6 @@ public class EditImageActivity extends BaseActivity implements OnLoadingDialogLi
                 break;
             case MODE_FILTER:
                 filterListFragment.backToMain();
-                break;
-            case MODE_CROP:
-                cropFragment.backToMain();
-                break;
-            case MODE_ROTATE:
-                rotateFragment.backToMain();
                 break;
             case MODE_TEXT:
                 addTextFragment.backToMain();
@@ -502,12 +494,6 @@ public class EditImageActivity extends BaseActivity implements OnLoadingDialogLi
                     break;
                 case MODE_FILTER:
                     filterListFragment.applyFilterImage();
-                    break;
-                case MODE_CROP:
-                    cropFragment.applyCropImage();
-                    break;
-                case MODE_ROTATE:
-                    rotateFragment.applyRotateImage();
                     break;
                 case MODE_TEXT:
                     addTextFragment.applyTextImage();

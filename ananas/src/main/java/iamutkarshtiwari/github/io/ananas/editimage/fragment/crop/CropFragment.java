@@ -142,7 +142,7 @@ public class CropFragment extends BaseEditFragment {
 
     @Override
     public void onShow() {
-        activity.mode = EditImageActivity.MODE_CROP;
+//        activity.mode = EditImageActivity.MODE_CROP;
 
         activity.mainImage.setVisibility(View.GONE);
         cropPanel.setVisibility(View.VISIBLE);

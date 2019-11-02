@@ -19,8 +19,6 @@ public class MainMenuFragment extends BaseEditFragment implements View.OnClickLi
 
     private View stickerBtn;
     private View fliterBtn;
-    private View cropBtn;
-    private View rotateBtn;
     private View mTextBtn;
     private View mPaintBtn;
     private View mBeautyBtn;
@@ -51,8 +49,6 @@ public class MainMenuFragment extends BaseEditFragment implements View.OnClickLi
 
         stickerBtn = mainView.findViewById(R.id.btn_stickers);
         fliterBtn = mainView.findViewById(R.id.btn_filter);
-        cropBtn = mainView.findViewById(R.id.btn_crop);
-        rotateBtn = mainView.findViewById(R.id.btn_rotate);
         mTextBtn = mainView.findViewById(R.id.btn_text);
         mPaintBtn = mainView.findViewById(R.id.btn_paint);
         mBeautyBtn = mainView.findViewById(R.id.btn_beauty);
@@ -61,8 +57,6 @@ public class MainMenuFragment extends BaseEditFragment implements View.OnClickLi
 
         stickerBtn.setOnClickListener(this);
         fliterBtn.setOnClickListener(this);
-        cropBtn.setOnClickListener(this);
-        rotateBtn.setOnClickListener(this);
         mTextBtn.setOnClickListener(this);
         mPaintBtn.setOnClickListener(this);
         mBeautyBtn.setOnClickListener(this);
@@ -86,10 +80,6 @@ public class MainMenuFragment extends BaseEditFragment implements View.OnClickLi
             onStickClick();
         } else if (v == fliterBtn) {
             onFilterClick();
-        } else if (v == cropBtn) {
-            onCropClick();
-        } else if (v == rotateBtn) {
-            onRotateClick();
         } else if (v == mTextBtn) {
             onAddTextClick();
         } else if (v == mPaintBtn) {
@@ -112,17 +102,6 @@ public class MainMenuFragment extends BaseEditFragment implements View.OnClickLi
         activity.bottomGallery.setCurrentItem(FilterListFragment.INDEX);
         activity.filterListFragment.onShow();
     }
-
-    private void onCropClick() {
-        activity.bottomGallery.setCurrentItem(CropFragment.INDEX);
-        activity.cropFragment.onShow();
-    }
-
-    private void onRotateClick() {
-        activity.bottomGallery.setCurrentItem(RotateFragment.INDEX);
-        activity.rotateFragment.onShow();
-    }
-
 
     private void onAddTextClick() {
         activity.bottomGallery.setCurrentItem(AddTextFragment.INDEX);

@@ -75,7 +75,7 @@ public class RotateFragment extends BaseEditFragment implements OnClickListener 
 
     @Override
     public void onShow() {
-        activity.mode = EditImageActivity.MODE_ROTATE;
+//        activity.mode = EditImageActivity.MODE_ROTATE;
         activity.mainImage.setImageBitmap(activity.getMainBit());
         activity.mainImage.setDisplayType(ImageViewTouchBase.DisplayType.FIT_TO_SCREEN);
         activity.mainImage.setVisibility(View.GONE);

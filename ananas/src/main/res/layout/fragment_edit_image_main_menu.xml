@@ -62,52 +62,6 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/btn_crop"
-                style="@style/option_style"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <ImageView
-                    style="@style/icon_style"
-                    android:layout_gravity="center"
-                    android:src="@drawable/crop" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:text="@string/iamutkarshtiwari_github_io_ananas_crop"
-                    android:textColor="@color/text_color"
-                    android:textSize="@dimen/image_edit_text_size"
-                    tool:text="Text" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/btn_rotate"
-                style="@style/option_style"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <ImageView
-                    style="@style/icon_style"
-                    android:layout_gravity="center"
-                    android:src="@drawable/rotate" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:text="@string/iamutkarshtiwari_github_io_ananas_rotate"
-                    android:textColor="@color/text_color"
-                    android:textSize="@dimen/image_edit_text_size"
-                    tool:text="Text" />
-
-            </LinearLayout>
-
-            <LinearLayout
                 android:id="@+id/btn_text"
                 style="@style/option_style"
                 android:layout_weight="1"
